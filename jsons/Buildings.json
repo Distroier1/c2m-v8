@@ -1,0 +1,1450 @@
+[
+	//c2m-v7
+	// Paleolithic Era
+
+	// Always available
+	{
+		"name": "Paleolithic Era",
+		"cost": 1,
+		"happiness": -12,
+		"culture": 1,
+		"production": -1,
+		"uniques": [ "Unsellable", "[-1] production per [2] population [in this city]", "[-90]% culture [in this city]", "Provides [1] [Wonder Limit]" ]
+
+	},
+	{
+		"name": "Legendary Stone",
+		"isNationalWonder": true,
+
+		"cityStrength": 1,
+		"culture": -1,
+		"cost": 1,
+		"uniques": [ "Indicates the capital city" ]
+	},
+	{
+		"name": "Cave",
+		"production": 1,
+		"cost": 30,
+		"requiredTech": "Nomadism",
+		"specialistSlots": { "Caveman": 1 },
+		"uniques": [
+			"Destroyed when the city is captured",
+			"Obsolete with [Sedentary Lifestyle]"
+		]
+	},
+	{
+		"name": "Neander Valley",
+		"culture": 1,
+		"production": 1,
+		"food": 1,
+		"happiness": 1,
+		"cost": 80,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Nomadism"
+
+	},
+	{
+		"name": "Stick Gatherer",
+		"production": 1,
+		"cost": 30,
+		"requiredTech": "Gathering",
+		"uniques": [
+			"Destroyed when the city is captured",
+			"Obsolete with [Obsidian Tools]"
+		]
+	},
+	{
+		"name": "Fruit Gatherer",
+		"food": 1,
+		"cost": 30,
+		"requiredTech": "Gathering",
+		"uniques": [
+			"Destroyed when the city is captured",
+			"Obsolete with [Agriculture]"
+		]
+	},
+	{
+		"name": "Amber Gatherer",
+		"gold": 1,
+		"cost": 30,
+		"requiredTech": "Gathering",
+		"uniques": [
+			"Destroyed when the city is captured",
+			"Obsolete with [Barter]"
+		]
+	},
+	{
+		"name": "Storyteller Hut",
+		"science": 1,
+		"culture": 1,
+		"happiness": 1,
+		"cost": 30,
+		"requiredTech": "Language",
+		"uniques": [
+			"Destroyed when the city is captured",
+			"Obsolete with [Writing]"
+		]
+	},
+	{
+		"name": "Poison Crafter Hut",
+		"science": 1,
+		"production": 1,
+		"food": -1,
+		"happiness": -1,
+		"cost": 50,
+		"requiredTech": "Herbalism",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+
+	{
+		"name": "Herb Gatherer",
+		"food": 1,
+		"happiness": 1,
+		"cost": 40,
+		"requiredTech": "Herbalism",
+		"uniques": [
+			"Destroyed when the city is captured",
+			"Obsolete with [Agriculture]"
+		]
+	},
+	{
+		"name": "Campfire",
+		"food": 2,
+		"production": 1,
+		"culture": 1,
+		"cost": 50,
+		"requiredTech": "Fire",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Torches",
+		"production": 1,
+		"happiness": 1,
+		"cost": 50,
+		"requiredTech": "Fire",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Woodcarver Hut",
+		"production": 2,
+		"cost": 60,
+		"requiredTech": "Carving",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Elder Hut",
+		"science": 2,
+		"culture": 2,
+		"maintenance": 1,
+		"cost": 60,
+		"requiredTech": "Tradition",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Stonecutter Hut",
+
+		"production": 1,
+		"maintenance": 1,
+		"specialistSlots": { "Early Engineer": 1 },
+		"cost": 70,
+
+		"requiredTech": "Stone Working",
+
+
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Shaman Hut",
+
+		"happiness": 1,
+		"science": 2,
+		"maintenance": 1,
+		"specialistSlots": { "Early Scientist": 1 },
+
+		"cost": 70,
+
+		"requiredTech": "Shamanism",
+
+		"uniques": [
+			"Destroyed when the city is captured",
+			"Obsolete with [Calendar]"
+		]
+	},
+	{
+		"name": "Venus of Willendorf",
+		"culture": 1,
+		"food": 2,
+		"happiness": 1,
+		"cost": 140,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"uniques": [ "[+1] population [in all cities]" ],
+		"requiredTech": "Carving"
+
+	},
+	{
+		"name": "Lascaux Cave",
+		"culture": 4,
+		"happiness": 2,
+		"cost": 160,
+		"isWonder": true,
+		"requiredResource": "Wonder Limit",
+
+		"requiredTech": "Cave Art"
+
+	},
+	{
+		"name": "Cave Paintings",
+		"culture": 2,
+		"science": 1,
+		"cost": 90,
+		"requiredTech": "Cave Art",
+		"specialistSlots": { "Caveman": 1 },
+		"uniques": [
+			"Destroyed when the city is captured",
+			"Obsolete with [Writing]"
+		]
+	},
+	{
+		"name": "Ritual Dance",
+		"culture": 1,
+		"happiness": 2,
+		"cost": 90,
+		"requiredTech": "Ritualism",
+		"specialistSlots": {
+			"Caveman": 1,
+			"Early Entertainer": 1
+		},
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Spring Festival",
+		"isNationalWonder": true,
+		"requiredTech": "Celebration",
+		"food": 2,
+		"happiness": 2,
+		"culture": 2,
+		"maintenance": 2,
+
+		"cost": 220
+
+	},
+	{
+		"name": "New Year Festival",
+		"isNationalWonder": true,
+		"requiredTech": "Celebration",
+		"gold": 2,
+		"happiness": 2,
+		"culture": 2,
+		"maintenance": 2,
+
+		"cost": 220
+
+	},
+	{
+		"name": "Graveyard",
+
+		"culture": 2,
+		"happiness": 1,
+		"food": -1,
+		"cost": 120,
+		"requiredTech": "Ceremonial Burial",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Chieftain Hut",
+
+		"production": 2,
+		"food": 1,
+		"culture": 1,
+		"happiness": 1,
+		"maintenance": 2,
+		"cost": 160,
+		"requiredTech": "Chiefdom",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Fur Trader",
+
+		"gold": 2,
+		"cost": 120,
+		"requiredTech": "Trapping",
+		"specialistSlots": { "Early Merchant": 1 },
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Fisherman Hut",
+
+		"food": 2,
+		"cost": 160,
+		"maintenance": 1,
+		"requiredTech": "Fishing",
+		"specialistSlots": { "Early Merchant": 1 },
+		"uniques": [
+			"Destroyed when the city is captured",
+			"Must be next to [Coast]"
+		]
+	},
+	{
+		"name": "Granary",
+
+		"food": 1,
+		"cost": 160,
+		"requiredTech": "Pottery",
+		"uniques": [ "Destroyed when the city is captured", "[+10]% Food is carried over after population increases [in this city]" ]
+	},
+	{
+		"name": "Monte Verde",
+		"culture": 2,
+		"food": 3,
+		"cost": 280,
+		"isWonder": true,
+		"requiredResource": "Wonder Limit",
+		"requiredTech": "Pottery",
+		"specialistSlots": { "Peasant": 1 }
+
+	},
+	{
+		"name": "Monument",
+
+		"culture": 3,
+		"cost": 160,
+		"requiredTech": "Mysticism",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Small Shrine",
+
+		"faith": 1,
+		"culture": 1,
+		"cost": 160,
+		"requiredTech": "Mysticism",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Marketplace",
+		"gold": 3,
+		"cost": 180,
+		"requiredTech": "Barter",
+		"specialistSlots": { "Early Merchant": 1 },
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Shepherd Hut",
+		"food": 2,
+		"maintenance": 1,
+		"cost": 180,
+		"requiredTech": "Animal Husbandry",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Obelisk",
+		"culture": 3,
+		"faith": 1,
+		"cost": 180,
+		"requiredTech": "Megalith Construction",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Palisade",
+		"cityStrength": 3,
+		"maintenance": 1,
+		"cost": 180,
+		"requiredTech": "Palisade Building",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Stonehenge",
+		"culture": 4,
+		"science": 4,
+		"faith": 2,
+		"requiredResource": "Wonder Limit",
+		"cost": 320,
+		"isWonder": true,
+		"requiredTech": "Megalith Construction",
+		"specialistSlots": { "Early Scientist": 1 }
+	},
+	{
+		"name": "Megalithic Temples of Maltha",
+		"culture": 3,
+		"happiness": 2,
+		"faith": 4,
+		"cost": 320,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Megalith Construction",
+		"specialistSlots": { "Early Engineer": 1 }
+	},
+	{
+		"name": "Hill of Tara",
+		"culture": 2,
+		"happiness": 2,
+		"cost": 320,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"uniques": [ "[+1 Happiness] from every [Noble]" ],
+		"requiredTech": "Megalith Construction",
+		"specialistSlots": { "Noble": 1 }
+	},
+
+	{
+		"name": "Slave Market",
+		"gold": 2,
+		"happiness": -3,
+		"production": 2,
+		"food": 2,
+		"cost": 200,
+		"requiredTech": "Slavery",
+		"specialistSlots": { "Early Merchant": 1 },
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Barn",
+		"food": 2,
+		"maintenance": 1,
+		"cost": 200,
+		"requiredTech": "Agriculture",
+		"specialistSlots": { "Peasant": 1 },
+		"uniques": [ "Destroyed when the city is captured" ]
+
+	},
+	{
+		"name": "Shooting Range",
+		"maintenance": 1,
+		"cost": 200,
+		"requiredTech": "Archery",
+		"uniques": [ "Destroyed when the city is captured", "New [Ranged] units start with [15] Experience [in this city]" ]
+	},
+	{
+		"name": "Flint Mines",
+		"production": 2,
+		"maintenance": 1,
+		"cost": 200,
+		"requiredTech": "Mining",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Obsidian Mines",
+		"production": 2,
+		"maintenance": 1,
+		"cost": 200,
+		"requiredTech": "Mining",
+		"uniques": [ "Destroyed when the city is captured", "Provides [2] [Obsidian]" ]
+	},
+	{
+		"name": "Moai Statues",
+		"culture": 4,
+		"gold": 4,
+		"production": 2,
+		"cost": 350,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Boat Building",
+		"specialistSlots": { "Early Engineer": 1 },
+		"uniques": [ "Must be next to [Coast]" ]
+
+	},
+	{
+		"name": "Yericho",
+		"culture": 2,
+		"production": 3,
+		"food": 3,
+		"cityStrenght": 10,
+		"cost": 420,
+		"isWonder": true,
+		"requiredResource": "Wonder Limit",
+		"requiredTech": "Masonry",
+		"specialistSlots": {
+			"Peasant": 1,
+			"Noble": 1
+		}
+
+	},
+	{
+		"name": "Serpent Mound",
+		"culture": 3,
+		"science": 6,
+		"cost": 420,
+		"isWonder": true,
+		"requiredResource": "Wonder Limit",
+		"requiredTech": "Astrology",
+		"specialistSlots": {
+			"Early Scientist": 1,
+			"Early Engineer": 1
+		},
+		"uniques": [ "[+1 Production] from every [Early Scientist]" ]
+
+	},
+	{
+		"name": "Göbekli Tepe",
+		"culture": 3,
+		"science": 6,
+		"cost": 400,
+		"isWonder": true,
+		"requiredResource": "Wonder Limit",
+		"requiredTech": "Calendar",
+		"specialistSlots": {
+			"Early Scientist": 1,
+			"Early Engineer": 1
+		},
+		"uniques": [ "[+1 Science] from every [Early Scientist]" ]
+
+	},
+	{
+		"name": "Astrologist Hut",
+		"culture": 1,
+		"happiness": 2,
+		"science": 2,
+		"maintenance": 2,
+		"cost": 250,
+		"requiredTech": "Astrology",
+		"specialistSlots": {
+			"Early Scientist": 1
+		},
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+
+	{
+		"name": "Stable",
+		"production": 2,
+		"maintenance": 2,
+		"cost": 220,
+		"requiredTech": "Horseback Riding",
+		"uniques": [
+			"Destroyed when the city is captured",
+			"New [Mounted] units start with [15] Experience [in this city]",
+			"[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Farmer Hut",
+		"food": 2,
+		"production": 1,
+		"cost": 220,
+		"specialistSlots": {
+			"Peasant": 1
+		},
+		"requiredTech": "Plow",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "War Shrine",
+		"faith": 2,
+		"maintenance": 1,
+		"cost": 220,
+		"requiredTech": "Copper Working",
+		"uniques": [ "Destroyed when the city is captured", "New [Melee] units start with [5] Experience [in this city]" ]
+	},
+	{
+		"name": "City Walls",
+		"cityStrength": 5,
+		"maintenance": 2,
+		"cost": 250,
+		"requiredTech": "Masonry",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Toll Station",
+		"gold": 3,
+		"happiness": -1,
+		"cost": 250,
+		"specialistSlots": {
+			"Early Merchant": 1
+		},
+		"requiredTech": "The Wheel",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Circus",
+		"happiness": 3,
+		"cost": 220,
+		"maintenance": 2,
+		"specialistSlots": {
+			"Early Entertainer": 1
+		},
+		"requiredTech": "Horseback Riding",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Pi-Ramesses Stables",
+		"culture": 1,
+		"production": 3,
+		"food": 2,
+		"cost": 400,
+		"isWonder": true,
+		"requiredResource": "Wonder Limit",
+		"requiredTech": "Horseback Riding",
+		"uniques": [
+			"New [Mounted] units start with [20] Experience [in this city]",
+			"[+15]% Production when constructing [Mounted] units [in this city]"
+		]
+
+	},
+
+	{
+		"name": "Sewer Systems",
+		"food": 3,
+		"maintenance": 2,
+		"cost": 250,
+		"requiredTech": "Sewer Systems",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Library",
+		"culture": 2,
+		"science": 5,
+		"cost": 250,
+		"maintenance": 3,
+		"specialistSlots": {
+			"Early Scientist": 1
+		},
+		"requiredTech": "Writing",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Library of Nineveh",
+		"culture": 3,
+		"science": 8,
+		"cost": 450,
+		"isWonder": true,
+		"requiredResource": "Wonder Limit",
+		"requiredTech": "Writing",
+		"specialistSlots": {
+			"Early Scientist": 1
+		},
+		"uniques": [
+			"[+10]% [Science] [in this city]"
+		]
+
+	},
+	{
+		"name": "Copper Mines",
+		"production": 3,
+		"maintenance": 2,
+		"cost": 250,
+		"requiredTech": "Bronze Working",
+		"uniques": [ "Destroyed when the city is captured", "Provides [2] [Copper]" ]
+	},
+	{
+		"name": "Epic of Gilgamesh",
+		"culture": 8,
+		"happiness": 4,
+		"cost": 500,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Poetry",
+
+		"uniques": [
+			"[+10]% [Culture] [in this city]"
+		]
+
+	},
+	{
+		"name": "Great Pyramid of Giza",
+		"culture": 3,
+		"production": 5,
+		"cost": 575,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Construction",
+		"specialistSlots": {
+			"Noble": 1
+		},
+		"uniques": [ "[+1 Production] from every [Early Engineer]", "[+1 Production] from every [Noble]" ]
+
+	},
+	{
+		"name": "Sphinx",
+		"culture": 3,
+		"production": 5,
+		"cost": 575,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Construction",
+		"specialistSlots": {
+			"Noble": 1
+		},
+		"uniques": [ "[+1 Culture] from every [Early Engineer]", "[+1 Happiness] from every [Noble]" ]
+
+	},
+	{
+		"name": "Ishtar Gate",
+		"culture": 3,
+		"gold": 6,
+		"cityStrenght": 10,
+		"cost": 575,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Currency",
+		"specialistSlots": {
+			"Noble": 1
+		},
+		"uniques": [ "[+2 Gold] from every [Early Merchant]" ]
+
+	},
+	{
+		"name": "Great Bath of Mohenjo Daro",
+		"culture": 2,
+		"food": 5,
+		"happiness": 3,
+		"cost": 500,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Sewer Systems",
+		"uniques": [ "[+1] population [in all cities]", "[+1 Food] from every [Early Engineer]" ]
+
+	},
+	{
+		"name": "Hanging Gardens",
+		"culture": 2,
+		"food": 7,
+		"happiness": 3,
+		"cost": 650,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Gardening",
+		"specialistSlots": {
+			"Early Entertainer": 1
+		},
+		"uniques": [ "[+1] population [in all cities]", "[+1 Food] from every [Early Engineer]" ]
+
+	},
+	{
+		"name": "Tower of Babel",
+		"culture": 3,
+		"science": 6,
+		"cost": 575,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Mathematics",
+		"specialistSlots": {
+			"Early Scientist": 1,
+			"Early Engineer": 1
+		},
+		"uniques": [ "[+2 Science] from every [Early Engineer]", "[+2 Production] from every [Early Engineer]" ]
+
+	},
+	{
+		"name": "Old Testament",
+		"culture": 5,
+		"happiness": 5,
+		"faith": 10,
+		"cost": 650,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Scriptures",
+		"uniques": [ "Empire enters a [10]-turn Golden Age" ]
+
+	},
+	{
+		"name": "Oracle",
+		"culture": 6,
+		"science": 6,
+		"cost": 650,
+		"isWonder": true,
+		"requiredResource": "Wonder Limit",
+		"requiredTech": "Priesthood",
+		"specialistSlots": {
+			"Early Scientist": 1
+		},
+		"uniques": [ "Free Technology", "[+1 Culture] from every [Early Scientist]" ]
+
+	},
+	{
+		"name": "Gate of the Sun",
+		"culture": 4,
+		"production": 4,
+		"food": 4,
+		"science": 4,
+		"gold": 4,
+		"cost": 650,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Sundial",
+		"specialistSlots": {
+			"Early Scientist": 1,
+			"Early Engineer": 1
+		},
+		"uniques": [ "[+2 Science] [in all cities]", "[+2 Culture] [in all cities]" ]
+
+	},
+	{
+		"name": "Statue of Zeus",
+		"culture": 5,
+		"cost": 650,
+		"isWonder": true,
+		"requiredResource": "Wonder Limit",
+		"requiredTech": "Sculpture",
+		"specialistSlots": {
+			"Early Engineer": 1
+		},
+		"uniques": [ "[+1 Culture] from every [Early Engineer]", "New [Melee] units start with [15] Experience [in this city]", "[+10]% Production when constructing [Melee] units [in this city]" ]
+
+	},
+	{
+		"name": "The Great Lighthouse",
+		"culture": 4,
+		"food": 6,
+		"gold": 6,
+		"cost": 750,
+		"isWonder": true,
+		"requiredResource": "Wonder Limit",
+		"requiredTech": "Optics",
+		"specialistSlots": {
+			"Early Merchant": 2
+		},
+		"uniques": [ "[+2 Food] from every [Early Merchant]", "[+2 Gold] from every [Early Merchant]", "[+2 Science] from every [Early Merchant]", "Must be next to [Coast]" ]
+
+	},
+	{
+		"name": "Great Wall",
+		"culture": 5,
+		"cityStrenght": 25,
+		"cost": 750,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Engineering",
+		"specialistSlots": {
+			"Early Engineer": 2
+		},
+		"uniques": [ "[+2 Production] from every [Early Engineer]" ]
+	},
+	{
+		"name": "Imago Mundi",
+		"culture": 5,
+		"science": 5,
+		"gold": 5,
+		"cost": 750,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Cartography",
+		"uniques": [
+			"[+2 Gold] from every [Early Merchant]",
+			"All newly-trained [Melee] units [in this city] receive the [Sight I] promotion",
+			"All newly-trained [Scout] units [in this city] receive the [Sight I] promotion",
+			"All newly-trained [Ranged] units [in this city] receive the [Sight I] promotion",
+			"All newly-trained [Mounted] units [in this city] receive the [Sight I] promotion",
+			"All newly-trained [Water civillian] units [in this city] receive the [Sight I] promotion",
+			"All newly-trained [Water melee] units [in this city] receive the [Sight I] promotion",
+			"All newly-trained [Water ranged] units [in this city] receive the [Sight I] promotion"
+		]
+	},
+	{
+		"name": "Temple of Solomon",
+		"culture": 5,
+		"happiness": 5,
+		"faith": 7,
+		"gold": 5,
+		"cost": 750,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Monotheism",
+		"specialistSlots": {
+			"Early Entertainer": 2
+		},
+		"uniques": [ "[+1 Science] from every [Early Entertainer]", "[+1 Gold] from every [Early Entertainer]", "[+1 Happiness] from every [Early Entertainer]" ]
+	},
+	{
+		"name": "Valley of Kings",
+		"culture": 5,
+		"production": 5,
+		"gold": 5,
+		"happiness": 3,
+		"cost": 750,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Monarchy",
+		"uniques": [ "Free Technology", "[+1 Science] from every [Early Engineer]", "[+1 Gold] from every [Early Engineer]" ]
+	},
+	{
+		"name": "Plato Academy",
+		"culture": 5,
+		"science": 5,
+		"cost": 900,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Greek Philosophy",
+		"uniques": [ "Free Technology", "Free Social Policy" ]
+	},
+	{
+		"name": "Barracks",
+		"maintenance": 2,
+		"cost": 250,
+		"requiredTech": "Bronze Working",
+		"uniques": [ "[+10]% Production when constructing [Melee] units [in this city]" ]
+	},
+	{
+		"name": "Forge",
+		"production": 5,
+		"happiness": -2,
+		"specialistSlots": {
+			"Early Engineer": 2
+		},
+		"maintenance": 3,
+		"cost": 325,
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Market Square",
+		"gold": 3,
+		"specialistSlots": {
+			"Early Merchant": 2
+		},
+		"cost": 400,
+		"requiredTech": "Trade",
+		"uniques": [ "[+5]% [Gold] [in this city]" ]
+	},
+	{
+		"name": "Blacksmith",
+		"production": 3,
+		"happiness": -2,
+		"specialistSlots": {
+			"Early Engineer": 2
+		},
+		"maintenance": 7,
+		"cost": 400,
+		"uniques": [ "[+2]% [Production] [in this city]" ],
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Sculptor Workshop",
+		"production": 3,
+		"happiness": 3,
+		"culture": 3,
+		"specialistSlots": {
+			"Early Engineer": 2
+		},
+		"maintenance": 7,
+		"cost": 400,
+		"uniques": [ "[+2]% [Culture] [in this city]" ],
+		"requiredTech": "Sculpture"
+	},
+	{
+		"name": "Gardens",
+		"food": 3,
+		"happiness": 2,
+		"culture": 2,
+		"maintenance": 7,
+		"cost": 400,
+		"uniques": [ "[+2]% [Food] [in this city]" ],
+		"requiredTech": "Gardening"
+	},
+	{
+		"name": "Archives",
+		"science": 3,
+		"culture": 3,
+		"maintenance": 7,
+		"cost": 400,
+		"uniques": [ "[+2]% [Science] [in this city]" ],
+		"requiredTech": "Scriptures"
+	},
+	{
+		"name": "Lighthouse",
+		"Food": 3,
+		"cost": 400,
+		"uniques": [ "[+2]% [Food] [in this city]", "Must be next to [Coast]" ],
+		"requiredTech": "Optics"
+	},
+	{
+		"name": "Workshop",
+		"production": 3,
+		"happiness": -2,
+		"specialistSlots": {
+			"Early Engineer": 2
+		},
+		"maintenance": 7,
+		"cost": 500,
+		"uniques": [ "[+2]% [Production] [in this city]" ],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Buddhist Stupa",
+		"culture": 3,
+		"happiness": 2,
+		"science": 3,
+		"faith": 5,
+		"specialistSlots": {
+			"Early Entertainer": 1
+		},
+		"maintenance": 7,
+		"cost": 500,
+		"uniques": [ "[+2]% [Faith] [in this city]" ],
+		"requiredTech": "Meditation"
+	},
+	{
+		"name": "Temple",
+		"culture": 3,
+		"happiness": 2,
+		"faith": 5,
+		"specialistSlots": {
+			"Early Entertainer": 1
+		},
+		"maintenance": 5,
+		"cost": 500,
+		"uniques": [ "[+2]% [Faith] [in this city]" ],
+		"requiredTech": "Monotheism"
+	},
+	{
+		"name": "High Walls",
+		"cityStrength": 10,
+		"maintenance": 5,
+		"cost": 500,
+		"requiredTech": "Engineering",
+		"uniques": [ "Destroyed when the city is captured" ]
+	},
+	{
+		"name": "Bath",
+		"culture": 2,
+		"food": 1,
+		"happiness": 3,
+		"cost": 250,
+
+		"requiredTech": "Sewer Systems"
+
+	},
+	{
+		"name": "Harbour",
+		"food": 5,
+		"maintenance": 3,
+		"cost": 400,
+		"uniques": [ "[+2]% [Food] [in this city]", "Must be next to [Coast]" ],
+		"requiredTech": "Optics"
+	},
+	{
+		"name": "Stone Bridge",
+		"gold": 2,
+		"production": 2,
+		"cost": 250,
+		"requiredTech": "Bridge Building"
+	},
+	{
+		"name": "Sundial",
+		"science": 3,
+		"production": 3,
+		"cost": 400,
+		"requiredTech": "Sundial"
+	},
+
+	{
+		"name": "Theatre of Dionysus",
+		"culture": 10,
+		"happiness": 7,
+		"cost": 1100,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Drama",
+		"specialistSlots": {
+			"Early Entertainer": 2
+		},
+		"uniques": [
+			"[+2 Culture] from every [Early Entertainer]",
+			"[+2 Happiness] from every [Early Entertainer]"
+		]
+	},
+	{
+		"name": "Circus Maximus",
+		"culture": 3,
+		"gold": 7,
+		"happiness": 5,
+		"cost": 1100,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Sport",
+		"specialistSlots": {
+			"Early Entertainer": 2
+		},
+		"uniques": [
+			"[+2 Gold] from every [Early Entertainer]",
+			"[+2 Happiness] from every [Early Entertainer]"
+		]
+	},
+
+	{
+		"name": "Pont du Gard",
+		"culture": 3,
+		"food": 3,
+		"cost": 1100,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Concrete",
+		"specialistSlots": {
+			"Early Engineer": 1
+		},
+		"uniques": [ "[+15]% [Food] [in this city]" ]
+	},
+	{
+		"name": "Pantheon",
+		"culture": 5,
+		"happiness": 3,
+		"faith": 10,
+		"cost": 1300,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Roman Concrete",
+		"specialistSlots": {
+			"Early Engineer": 1
+		},
+		"uniques": [ "[+15]% [Faith] [in all cities]" ]
+	},
+	{
+		"name": "Coloseum",
+		"culture": 5,
+		"happiness": 10,
+		"cost": 1300,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Roman Concrete",
+		"specialistSlots": {
+			"Early Engineer": 1
+		}
+	},
+	{
+		"name": "Temple of Arthemis",
+		"culture": 5,
+		"happiness": 5,
+		"food": 5,
+		"cost": 1300,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Diplomacy"
+	},
+	{
+		"name": "Antykithera Mechanism",
+		"culture": 1,
+		"science": 10,
+		"cost": 1300,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"uniques": [ "[Free Technology]" ],
+		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Senate of Rome",
+		"culture": 7,
+		"happiness": 3,
+		"science": 3,
+		"cost": 1500,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"uniques": [ "[+2 Culture] from every [Noble]", "[+2 Happiness] from every [Noble]", "[+1 Science] from every [Noble]", "[Free Social Policy]" ],
+		"requiredTech": "Senate"
+	},
+	{
+		"name": "Via Appia",
+		"culture": 3,
+		"gold": 10,
+		"cost": 1500,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"uniques": [ "[+10]% [Gold] [in all cities]" ],
+		"requiredTech": "Stone Roads"
+	},
+	{
+		"name": "Silk Road",
+		"culture": 3,
+		"gold": 10,
+		"cost": 1500,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"uniques": [ "[+10]% [Gold] [in all cities]" ],
+		"requiredTech": "Stone Roads"
+	},
+	{
+		"name": "Forum Romanum",
+		"culture": 5,
+		"gold": 5,
+		"happiness": 5,
+		"cost": 1500,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"uniques": [ "[+5]% [Gold] [in all cities]", "[+5]% [Science] [in all cities]", "[+5]% [Culture] [in all cities]" ],
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Hierapolis Sawmill",
+		"production": 8,
+		"cost": 1500,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"specialistSlots": {
+			"Early Engineer": 1
+		},
+		"uniques": [ "[+2 Production] from every [Early Engineer]", "[+1 Production] from every [Peasant]" ],
+		"requiredTech": "Waterwheels"
+	},
+	{
+		"name": "Parthenon",
+		"culture": 15,
+		"happiness": 5,
+		"faith": 5,
+		"cost": 1500,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Aesthetics"
+	},
+	{
+		"name": "Shwedagon Pagoda",
+		"culture": 5,
+		"happiness": 5,
+		"gold": 5,
+		"faith": 5,
+		"cost": 1500,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"uniques": [ "[+5]% [Culture] [in all cities]", "[+1 Gold] from every [Early Entertainer]" ],
+		"requiredTech": "Aesthetics"
+	},
+	{
+		"name": "Almagest",
+		"science": 10,
+		"cost": 1750,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"specialistSlots": {
+			"Early Scientist": 1
+		},
+		"uniques": [ "[+5]% [Science] [in all cities]", "[+2 Science] from every [Early Scientist]" ],
+		"requiredTech": "Geometry"
+	},
+	{
+		"name": "Nazca Lines",
+		"science": 7,
+		"culture": 7,
+		"production": 5,
+		"cost": 1750,
+		"requiredResource": "Wonder Limit",
+		"specialistSlots": {
+			"Early Engineer": 1
+		},
+		"isWonder": true,
+		"requiredTech": "Geometry"
+	},
+	{
+		"name": "Hagia Sophia",
+		"culture": 10,
+		"faith": 15,
+		"happiness": 10,
+		"cost": 1750,
+		"requiredResource": "Wonder Limit",
+		"specialistSlots": {
+			"Early Entertainer": 1
+		},
+		"isWonder": true,
+		"uniques": [ "[Free Social Policy]" ],
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "Chichen Itza",
+		"culture": 5,
+		"happiness": 5,
+		"science": 5,
+		"cost": 1750,
+		"requiredResource": "Wonder Limit",
+		"specialistSlots": {
+			"Early Entertainer": 1
+		},
+		"isWonder": true,
+		"uniques": [ "[+2 Production] from every [Early Engineer]", "[+2 culture] from every [Early Engineer]" ],
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Angkor Wat",
+		"culture": 12,
+		"science": 12,
+		"cost": 1750,
+		"requiredResource": "Wonder Limit",
+		"specialistSlots": {
+			"Early Scientist": 1
+		},
+		"isWonder": true,
+		"uniques": [ "[+2 Science] from every [Early Entertainer]", "[+2 Culture] from every [Early Scientist]" ],
+		"requiredTech": "Chinese Philosophy"
+	},
+	{
+		"name": "Sun Tzu War Academy",
+		"culture": 3,
+		"science": 3,
+		"cost": 1750,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"uniques": [
+			"[+2 Science] from every [Early Scientist]",
+			"New [Melee] units start with [20] Experience [in this city]"
+		],
+		"requiredTech": "Chinese Philosophy"
+	},
+	{
+		"name": "Great Library",
+		"culture": 5,
+		"science": 15,
+		"cost": 1500,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"uniques": [
+			"[+2 Science] from every [Early Scientist]",
+			"[Free Technology]"
+		],
+		"requiredTech": "Aesthetics"
+	},
+	{
+		"name": "Olympic Games",
+		"culture": 3,
+		"happiness": 15,
+		"cost": 1100,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Sport",
+		"specialistSlots": {
+			"Early Entertainer": 2
+		},
+		"uniques": [
+			"[+2 Culture] from every [Early Entertainer]",
+			"[+2 Happiness] from every [Early Entertainer]"
+		]
+	},
+	{
+		"name": "Gymnasium",
+		"culture": 3,
+		"science": 3,
+		"happiness": 3,
+		"maintenance": 7,
+		"cost": 600,
+
+		"requiredTech": "Sport"
+
+	},
+	{
+		"name": "Theatre",
+		"culture": 5,
+		"happiness": 5,
+		"cost": 600,
+		"maintenance": 5,
+		"requiredTech": "Drama"
+
+	},
+	{
+		"name": "Agora",
+		"culture": 3,
+		"gold": 3,
+		"production": 3,
+		"science": 3,
+		"happiness": 3,
+		"cost": 700,
+
+		"requiredTech": "Voting"
+
+	},
+	{
+		"name": "Lyceum",
+		"culture": 3,
+		"science": 5,
+		"cost": 700,
+		"maintenance": 7,
+		"uniques": [ "[+5]% [Science] [in this city]" ],
+		"requiredTech": "Voting"
+
+	},
+	{
+		"name": "The Colossus",
+		"culture": 3,
+		"production": 3,
+		"gold": 7,
+		"cost": 1500,
+		"requiredResource": "Wonder Limit",
+		"isWonder": true,
+		"requiredTech": "Sea Trade",
+		"specialistSlots": {
+			"Early Merchant": 2
+		},
+		"uniques": [ "[+1 Production] from every [Early Merchant]", "[+3 Gold] from every [Early Merchant]", "Must be next to [Coast]" ]
+
+	},
+	{
+		"name": "Waterwheel",
+		"production": 5,
+		"food": 5,
+		"cost": 850,
+		"maintenance": 7,
+		"uniques": [ "[+5]% [Production] [in this city]" ]
+		"requiredTech": "Waterwheels"
+
+	},
+	{
+		"name": "Villa",
+		"culture": 5,
+		"happiness": 5,
+		"cost": 800,
+		"maintenance": 7,
+		"specialistSlots": { "Noble": 2 }
+		"uniques": [ "[+5]% [Gold] [in this city]" ]
+		"requiredTech": "Senate"
+
+	},
+	{
+		"name": "Cathedral",
+		"culture": 3,
+		"happiness": 5,
+		"science": 3,
+		"faith": 5,
+		"gold": 5,
+		"specialistSlots": {
+			"Early Entertainer": 1
+		},
+
+		"cost": 1000,
+		"uniques": [ "[+5]% [Faith] [in this city]" ],
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "Pagoda",
+		"culture": 5,
+		"happiness": 5,
+		"science": 8,
+		"faith": 5,
+		"specialistSlots": {
+			"Early Entertainer": 1
+		},
+		"maintenance": 7,
+		"cost": 1000,
+		"uniques": [ "[+5]% [Faith] [in this city]" ],
+		"requiredTech": "Chinese Philosophy"
+	},
+	{
+		"name": "Classical Academy",
+		"culture": 5,
+		"science": 10,
+		"cost": 1000,
+		"maintenance": 10,
+		"uniques": [ "[+5]% [Science] [in this city]" ]
+		"requiredTech": "Geometry"
+
+	},
+	{
+		"name": "Stone Roads",
+		"gold": 5,
+		"science": 3,
+		"cost": 850,
+		"uniques": [ "[+10]% [Gold] [in this city]" ],
+		"requiredTech": "Stone Roads"
+
+	},
+
+	{
+		"name": "Port",
+		"gold": 5,
+		"production": 5,
+		"cost": 850,
+		"uniques": [ "[+5]% [Food] [in this city]", "[+5]% [Gold] [in this city]", "Must be next to [Coast]" ],
+		"requiredTech": "Sea Trade"
+	}
+
+
+
+
+
+
+]
